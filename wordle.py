@@ -55,5 +55,5 @@ for round in range(6):
     if round == 1 and len(guess) != len(set(guess)):
         guess = random.choice(words)
     if len(words) == 1:
-        print("We did it!")
+        print(f"We did it! The word is {guess}")
         break
